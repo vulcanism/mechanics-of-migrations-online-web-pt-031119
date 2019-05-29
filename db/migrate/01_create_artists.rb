@@ -12,6 +12,5 @@ class CreateArtists < ActiveRecord::Migration[5.2]
       t.integer :age
       t.string :hometown
     end
-    remove column :artists, :favorite_food
   end
 end
